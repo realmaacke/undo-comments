@@ -1,6 +1,6 @@
 {
   "name": "undo-comments",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Removed json comments",
   "main": "index.js",
   "type": "module",
