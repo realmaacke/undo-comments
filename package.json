@@ -1,0 +1,34 @@
+{
+  "name": "undo-comments",
+  "version": "1.0.2",
+  "description": "Removed json comments",
+  "main": "index.js",
+  "type": "module",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realmaacke/undo-comments.git"
+  },
+  "keywords": [
+    "json",
+    "remove",
+    "comments",
+    "undo"
+  ],
+  "author": "realmaacke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realmaacke/undo-comments/issues"
+  },
+  "homepage": "https://github.com/realmaacke/undo-comments#readme"
+}
