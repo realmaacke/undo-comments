@@ -1,19 +1,25 @@
 {
   "name": "undo-comments",
-  "version": "1.0.3",
-  "description": "Removed json comments",
-  "main": "index.js",
+  "version": "1.0.4",
+  "description": "Removes JSON comments",
   "type": "module",
-  "types": "index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "types": "./index.d.ts",
-      "import": "./index.js"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
     }
   },
+
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -30,5 +36,10 @@
   "bugs": {
     "url": "https://github.com/realmaacke/undo-comments/issues"
   },
-  "homepage": "https://github.com/realmaacke/undo-comments#readme"
+  "homepage": "https://github.com/realmaacke/undo-comments#readme",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
 }

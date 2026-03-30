@@ -1,0 +1,27 @@
+{
+    "db": {
+        "username": "Marcus",
+        "password": "password",
+        "dbStuff": false
+    },
+
+
+    // Comment here
+
+    "anotherDb": {
+        "username": "Marcus",
+        "password": "password",
+        "dbStuff": false
+    },
+
+    /*
+    * MultiLine Herer
+    * Whats up
+    * Below is yet another db schema
+    */
+    "another": {
+        "username": "Marcus",
+        "password": "password",
+        "dbStuff": false
+    }
+}
