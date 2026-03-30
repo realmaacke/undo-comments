@@ -1,7 +1,7 @@
 ## undo-comments
 
 This package is for undo comments in json, since JSON.parse dosent support comments.
-
+The tool is built in typescript.
 
 ### Usage:
 
