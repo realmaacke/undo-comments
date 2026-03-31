@@ -19,11 +19,15 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsx watch src/index.ts",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "ci": "echo 'ci'"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/realmaacke/undo-comments.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
     "json",
