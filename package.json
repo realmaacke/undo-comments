@@ -25,6 +25,9 @@
     "type": "git",
     "url": "git+https://github.com/realmaacke/undo-comments.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "keywords": [
     "json",
     "remove",
