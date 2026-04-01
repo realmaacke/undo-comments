@@ -39,3 +39,5 @@ if (failedSuites > 0) {
 }
 
 console.log("All tests have passed");
+
+process.exit(0);
